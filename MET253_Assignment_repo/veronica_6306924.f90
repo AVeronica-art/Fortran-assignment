@@ -3,7 +3,7 @@ PROGRAM veronica
 !6306924
 IMPLICIT NONE
 INTEGER::i
-REAL, DIMENSION (10)::z =(/85,62,45,91,38,74,55,88,61,47/) !I changed the B to z since the question asked that I used B for results under credit 
+REAL,DIMENSION (10)::z =(/85,62,45,91,38,74,55,88,61,47/) !I changed the B to z since the question asked that I used B for results under credit 
 CHARACTER (LEN12)::A,B,C,F, DISTINCTION, CREDIT, PASS,FAIL
 PRINT*,'enter 10 results'
 DO i=1,10
